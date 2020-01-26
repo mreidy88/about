@@ -111,13 +111,18 @@ a:visited {
 }
 
 .wrap:hover .square-one {
-  left: 0;
-  top: 0;
+  up: 200px;
+  top: 200px;
 }
 
 .square-two {
   left: 52px;
   top: 52px;
+}
+
+.wrap:hover .square-two {
+  right: 100px;
+  top: 100px;
 }
 
 .square-three {
